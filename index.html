@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="resume, cv, Alexey">
+    <meta name="description" content="Это сайт-резюме Алексея Шиндикова">
+    <link rel="stylesheet" href="selectors.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Resume Alexey</title>
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="info"> 
+    <img src="it's_me.jpg" alt="Алексей Шиндиков" class="avatar">
+    <div class="text">
+    <h1>Алексей Шиндиков</h1>
+
+    <p> Дата рождения <strong>4.01.1984</strong>. Более <strong>15-ти лет</strong> работал на станках с <strong>ЧПУ</strong>  (<em>лазерная группа</em>  ).</p>
+    <p>
+        Я люблю <em>заниматься деревообработкой, играть в страйкбол, слушать музыку</em>
+    </p>
+    </div>
+</div>
+<div class="card bg-green">
+    <h2>Мои хобби</h2>
+    <ol class="list">
+        <li>Столярка</li>
+        <li>Музыка</li>
+        <li>Страйкбол</li>
+        <li>Самоделки</li>
+    </ol>
+</div>
+<div class="card bg-red">
+    <h2>Опыт работы</h2>
+    <table class="table">
+        <!-- <thead>
+            <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+            </tr>
+        </thead> -->
+        <tbody>
+            <tr>
+                <td>РЦЛ</td>
+                <td>Оператор с ЧПУ</td>
+                <td>2004-2015</td>
+            </tr>
+            <tr>
+                <td>ТЕХНЕКС</td>
+                <td>Оператор с ЧПУ</td>
+                <td>2015-2017</td>
+            </tr>
+            <tr>
+                <td>РЦЛ</td>
+                <td>Оператор с ЧПУ</td>
+                <td>2017-2019</td>
+            </tr>
+            <tr>
+                <td>УТК-Сталь</td>
+                <td>Оператор с ЧПУ</td>
+                <td>2019 - сейчас</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="card bg-yellow">
+    <h2>Мои курсы</h2>
+    <ul class="link-list">
+        <li><a href="https://vladilen.ru/junior">Получение профессии Frontend разработчика</a></li>
+        <li><a href="https://vladilen.ru/courses">Все курсы</a></li>
+    </ul>
+</div>
+<div>
+    
+
+    <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+        <div class="form-row">
+        <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя">
+        </div>
+    
+
+    <form>
+        <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email">
+        </div>
+    </div>
+        <div class="form-group">
+            <label for="message">Ваше сообщение:</label>
+            <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+
+        <input class="btn" type="submit" value="Отправить">
+
+    </form>
+
+    </form>
+</div>
+
+</div>  
+</body>
+</html>
